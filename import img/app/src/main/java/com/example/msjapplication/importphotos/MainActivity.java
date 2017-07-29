@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == 1 && requestCode == RESULT_OK && data !=null){
+        if (requestCode == 1 && resultCode == RESULT_OK && data !=null){
 
             Uri selectedImage = data.getData();
 
